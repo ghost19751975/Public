@@ -29,7 +29,7 @@ def int_verify(str_in):
         return None
 
 
-str_ = input("Введите целые числа через пробел: ").split()
+str_ = input("Введите целые неповторяющиеся числа через пробел: ").split()
 num_ = list(map(int_verify, str_))
 
 if not num_ or None in num_:
@@ -50,6 +50,6 @@ if num_[0] >= cfr_ or num_[-1] < cfr_:
 else:
     for i in range(cfr_ - 1, num_[0] - 1, -1):
         idx = bin_search(num_, i, 0, len(num_))
-        if idx != None:
+        if idx != None and :
             print(f"Номер позиции равен {idx} (элемент {i})")
             break
