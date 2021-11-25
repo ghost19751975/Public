@@ -29,7 +29,7 @@ def int_verify(str_in):
         return None
 
 
-str_ = input("Введите целые числа через пробел: ").split()
+str_ = input("Введите целые неповторяющиеся числа через пробел: ").split()
 num_ = list(map(int_verify, str_))
 
 if not num_ or None in num_:
