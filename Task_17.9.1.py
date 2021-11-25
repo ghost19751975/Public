@@ -36,6 +36,11 @@ if not num_ or None in num_:
     print("Числа введены неверно!")
     exit()
 
+set_ = list(set(num_))
+if len(num_) != len(set_):
+    print("Имеются повторяющиеся числа!")
+    exit()
+
 sort_insert(num_)
 
 str_ = input("Введите целое число: ")
