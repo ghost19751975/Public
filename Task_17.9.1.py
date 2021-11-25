@@ -58,3 +58,5 @@ else:
         if idx != None:
             print(f"Номер позиции равен {idx} (элемент {i})")
             break
+
+            
