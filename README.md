@@ -1,2 +1,0 @@
-# Public
-Обучение в SkillFactory
