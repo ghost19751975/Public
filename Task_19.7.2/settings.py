@@ -1,2 +1,2 @@
-valid_email = "введите email"
-valid_password = "укажите пароль"
+valid_email = "РІРІРµРґРёС‚Рµ email"
+valid_password = "РІРІРµРґРёС‚Рµ РїР°СЂРѕР»СЊ"
