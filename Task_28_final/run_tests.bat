@@ -1,0 +1,9 @@
+python -m pytest -s -v tests/test_labirint.py::test_check_header_links
+python -m pytest -s -v tests/test_labirint.py::test_check_footer_links
+python -m pytest -s -v tests/test_labirint.py::test_check_main_search
+python -m pytest -s -v tests/test_labirint.py::test_check_prod_card
+python -m pytest -s -v tests/test_labirint.py::test_check_slider_menu
+python -m pytest -s -v tests/test_labirint.py::test_prod_filters
+python -m pytest -s -v tests/test_labirint.py::test_filter_price_values_negative
+python -m pytest -s -v tests/test_labirint.py::test_filter_price_range
+python -m pytest -s -v tests/test_labirint.py::test_prod_sort
